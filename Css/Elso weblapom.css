@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url(https://i.pinimg.com/originals/71/49/21/714921805eed7c5ae4cfdc516c31ad2c.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1, h2, h3 {
+  color: aliceblue;
+  text-align: center;
+  text-shadow: 2px 2px 5px green;
+}
+h1 {
+  padding: 1rem;
+}
+figure {
+  text-align: center;
+  display: inline-block;
+}
+img {
+  border: 1px;
+  display: inline-block;
+  max-width: 45%;
+  min-width: 45%;
+  padding: .2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+img:hover {
+  box-shadow: 20px 20px 50px 15px green;
+}
+p {
+  font-size: .9rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkred;
+  padding: .8rem;
+  text-align: center;
+}
+table, ul {
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkred;
+}
+a:hover {
+  color: red;
+}
+.footer-text {
+  color: black;
+  text-shadow: none;
+  width: 100%;
+  font-size: .7rem;
+}
+.info {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+div ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
